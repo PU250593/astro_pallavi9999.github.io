@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Astro Pallavi</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+
+      /* ✅ Background image added */
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                  url("bg.jpg.webp") no-repeat center center fixed;
+      background-size: cover;
+
+      color: #ffd700;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #b30000, #ff0000);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+    }
+
+    header h1 {
+      margin: 0;
+      color: #fff8dc;
+      font-size: 2.5em;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 5px;
+      color: #ffd700;
+    }
+
+    section {
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .button {
+      background-color: #ffd700;
+      color: #800000;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(255, 215, 0, 0.4);
+    }
+
+    .services h2 {
+      margin-bottom: 30px;
+    }
+
+    .services-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .service-item {
+      width: 300px;
+      text-align: center;
+    }
+
+    .service-item img {
+      width: 300px;
+      height: 600px;
+      border: 3px solid #ffd700;
+      border-radius: 10px;
+    }
+
+    .service-title {
+      margin-top: 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    .qr-code img {
+      width: 300px;
+      height: 300px;
+      border: 4px solid #ffd700;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #b30000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Astro_Pallavi9999</h1>
+  <p>Trusted Astrologer for Powerful Guidance & Result-Oriented Remedies</p>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    I am Astro Pallavi, a dedicated astrologer with over 5 years of experience in <strong>Lal Kitab astrology</strong>, <strong>Tarot reading</strong>, and providing <strong>accurate, personalized remedies</strong>.
+    <br> My aim is to guide people toward clarity, peace, and success through time-tested spiritual practices and intuitive insights.
+  </p>
+</section>
+
+<section class="services">
+  <h2>Our Services</h2>
+  <div class="services-grid">
+
+    <div class="service-item">
+      <img src="kundali (1).jpg" alt="Kundali Reading">
+      <div class="service-title">Kundali Reading</div>
+    </div>
+
+    <div class="service-item">
+      <img src="tarot.jpg.jpg" alt="Tarot Reading">
+      <div class="service-title">Tarot Reading</div>
+    </div>
+
+    <div class="service-item">
+      <img src="lalkitab.jpg.png" alt="Lal Kitab Course">
+      <div class="service-title">Lal Kitab Course</div>
+    </div>
+
+    <div class="service-item">
+      <img src="tarotco.png" alt="Tarot Course">
+      <div class="service-title">Tarot Course</div>
+    </div>
+
+  </div>
+  <a href="#qr-section" class="button">Book Now</a>
+</section>
+
+<section id="qr-section" class="qr-code">
+  <h2>Book & Pay</h2>
+  <p>Scan the QR below to pay and confirm your booking <br> send screen shots on whatsapp </p>
+  <img src="QR.jpg" alt="QR Code">
+</section>
+
+<footer>
+  <p>Follow on Instagram: <strong>@astro_pallavi9999</strong> | whatsapp: 6263898814</p>
+</footer>
+
+</body>
+</html>
